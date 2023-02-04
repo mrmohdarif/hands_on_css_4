@@ -1,0 +1,139 @@
+body {
+}
+.div1,
+.div4 {
+  background: linear-gradient(to right, red, green, yellow);
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+}
+.div2 {
+  background-color: #a5d8ff;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  margin: 0 auto;
+  border: 5px solid red;
+  border-radius: 10px;
+  padding: 5px 180px;
+}
+ul {
+  margin: 0;
+}
+.div3 {
+  display: flex;
+  justify-content: center;
+  background-color: #96f2d7;
+  border: 5px solid red;
+  border-radius: 10px;
+  margin-top: 30px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.div31 {
+  border: 3px solid green;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  width: 390px;
+  height: 85px;
+}
+.div31 p {
+  margin: 0;
+}
+.div5 {
+  background: radial-gradient(circle, #3f5efb, #46fccc);
+  padding-bottom: 1px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 50px;
+  border: 3px solid green;
+  margin-bottom: 40px;
+}
+.div51 {
+  border: 2px solid red;
+  padding: 0 30px 10px 30px;
+  border-radius: 10px;
+  color: red;
+  background-color: #ffd43b;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.5;
+}
+.div51 p {
+  margin: 0;
+}
+.div51 p:nth-child(odd) {
+  text-decoration: underline;
+}
+.div6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  border: 1px solid black;
+  gap: 10px;
+}
+.div60 {
+  border: 1px solid yellow;
+}
+.div60 p {
+  margin: 0;
+}
+.div61 {
+  background-color: #ff3838;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 25px;
+  color: #fff;
+  grid-column-start: 1;
+  grid-column-end: 8;
+}
+.div62 {
+  background-color: cadetblue;
+  grid-column: 1/3;
+  font-size: 21px;
+  text-align: center;
+}
+.div63 {
+  background-color: #f03e3e;
+  grid-column: 3/5;
+  font-size: 21px;
+  text-align: center;
+}
+
+.div64 {
+  background-color: #f06595;
+  grid-column: 5/7;
+  font-size: 21px;
+  text-align: center;
+}
+
+.div65 {
+  background-color: #ffd43b;
+  grid-column: 1/7;
+  font-size: 21px;
+  text-align: center;
+  height: 120px;
+}
+.div66 {
+  background-color: #82c91e;
+  grid-row-end: span 2;
+  text-decoration: underline;
+  width: 100px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.div67 {
+  background-color: #ae3ec9;
+  grid-column: 1/8;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+input {
+  stroke: red;
+}
